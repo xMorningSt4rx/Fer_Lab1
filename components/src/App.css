@@ -69,3 +69,8 @@ img {
   height: 800px;
 }
 
+.footer {
+  background-color: yellow;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
