@@ -1,7 +1,7 @@
 import React from 'react'
-
-
-export default function Films() {
+import { Films } from '../shared/ListOfFilms'
+export default function Film() {
+  
   return (
     <div className="grid-container">
       {Films.map((film) => (
@@ -17,5 +17,5 @@ export default function Films() {
         </div>
       ))}
     </div>
-  );
+  )
 }

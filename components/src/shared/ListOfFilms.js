@@ -8,5 +8,6 @@ export const Films =[
     {id: 7, name: 'Red', title: 'Red',year:'2000', nation:'USA', img:'assets/images/red.jpg'},
     {id: 8, name: 'SpiderMan', title: 'SpiderMan',year:'2000', nation:'USA', img:'assets/images/spider.jpg'},
     {id: 9, name: 'Thor', title: 'Thor',year:'2000', nation:'USA', img:'assets/images/thor.jpeg' },
+    
  
-]
+];
