@@ -7,11 +7,15 @@ export default function FilmssPresentation({films}) {
         <div className="column grid-item">
           <div className="card">
             <img src={film.img} />
-            <h3>{film.name}</h3>
+            
             <p className="title">{film.title}</p>
+            <p className="year" >Year: {film.year}</p>
+            <p className="nation" >Nation: {film.nation}</p>
             <p>
-              <button>Detail</button>
+              <button>Detail</button> <button className='button2'>Play</button>
+            
             </p>
+            
           </div>
         </div>
      ))}</div>   

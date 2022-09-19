@@ -12,7 +12,9 @@ export default function Film() {
             <p className="title">{film.title}</p>
             <p>
               <button>Detail</button>
+              
             </p>
+            
           </div>
         </div>
       ))}

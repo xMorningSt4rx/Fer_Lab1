@@ -12,10 +12,15 @@ button {
 
 button {border-radius: 12px;}
 
+.button2 {background-color: #f44336;}
+
 .grid-container {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3 , 1fr);
+  background-color: rgb(43, 42, 42);
+  color: white;
+  text-align: center;
 
 }
 
@@ -24,7 +29,7 @@ button {border-radius: 12px;}
   max-width: 100%;
 
 }
-.header {
+/* .header {
   overflow: hidden;
   background-color: #ccd9e2;
   padding: 20px 10px;
@@ -37,28 +42,19 @@ ul{
   overflow: hidden;
   
 
-}
+} */
 
-.header-left{
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
+
 
 
 .card{
   text-align: center;
 }
 
-li a{
+/* li a{
   display: block;
   text-align: right;
-}
+} */
 img {
   display: block;
   object-fit: cover;
@@ -70,12 +66,41 @@ img {
 }
 
 .footer {
-  background-color: yellow;
+  background-color: rgb(99, 99, 96);
   padding: 0.5rem;
   font-size: 1.2rem;
+  color: aliceblue;
 }
-.footer {
-  background-color: yellow;
-  padding: 0.5rem;
-  font-size: 1.2rem;
+
+ul{
+  list-style-type: none;
+  background: rgb(26, 25, 25);
+  margin-top: 0px;
+  border-color:lightslategray 10px,10px,10px,10px;
+  padding-left: 130px;
+}
+
+li{
+  color: rgb(234, 222, 222);
+  display: inline-block;
+  width: 120px;
+  line-height: 60px;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  padding-right: 5px;
+}
+
+a:hover{
+  background: rgb(215, 224, 214);
+  color: rgb(2, 2, 2);
+  border-radius: 40px;
+}
+.header-right {
+  float: right;
 }
