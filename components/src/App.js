@@ -1,6 +1,6 @@
 import './App.css';
 import Navigation from './components/Navigation';
-import Films from './components/Films';
+import Main from './components/Main';
 import Footer from './components/Footer';
 
 
@@ -8,7 +8,7 @@ function App(){
   return (
     <div className='App'>
       <Navigation/>
-      <Films/>
+      <Main/>
       <Footer/>
       
     </div>
